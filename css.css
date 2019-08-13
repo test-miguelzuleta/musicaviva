@@ -1,0 +1,297 @@
+/*html, html *{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/*FONTS*/
+@font-face{font-family:Carefree;src:url('z-fonts/segoepr.ttf');}
+@font-face{font-family:Franklin Gothic Book;src:url('z-fonts/frabk.ttf');}
+@font-face{font-family:Carefree;src:url("z-fonts/carefree.eot?") format("eot"),url("z-fonts/carefree.woff") format("woff"),url("z-fonts/carefree.ttf") format("truetype"),url("z-fonts/carefree.svg#Carefree") format("svg");font-weight:normal;font-style:normal;}
+
+/*SITES BG COLORS*/
+#clasesBg,#noticiasBg,#quienesBg,#porqueBg,#galeriaBg,#musicavivaBg{margin:0;padding:0;background-repeat:repeat;}
+#musicavivaBg{background-image:url(other/grayBg.png);}
+#quienesBg{background-image:url(other/greenBg.png);}
+#porqueBg{background-image:url(other/blueBg.png);}
+#clasesBg{background-image:url(other/redBg.png);}
+#galeriaBg{background-image:url(other/purpleBg.png);}
+#noticiasBg{background-image:url(other/orangeBg.png);}
+
+/*MENU BAR*/
+#allMenu{height:85px;width:100%;min-width:800px;background-image:url(other/upperMenuBar.png);background-repeat:repeat-x;margin:0;padding:0;z-index:1;}
+#allMenuButtons{height:77px;width:800px;padding:0;margin:0 auto;background-image:url(other/menuButtons.png);background-position:0 -152px;background-repeat:no-repeat;position:relative;}
+#allMenuButtons ul{padding:0;margin:0;}
+#allMenuButtons li{display:block;margin:0;padding:0;list-style-type:none;}
+
+#musicaViva_btn,#quienesSomos_btn,#porQue_btn,#clases_btn,#galeria_btn,#noticias_btn{position:absolute;top:2px;}
+#musicaViva_btn{left:0;}
+#quienesSomos_btn{left:215px;}
+#porQue_btn{left:323px;}
+#clases_btn{left:464px;}
+#galeria_btn{left:568px;}
+#noticias_btn{left:677px;}
+
+#musicaViva_btn a,#quienesSomos_btn a,#porQue_btn a,#clases_btn a,#galeria_btn a,#noticias_btn a{display:block;height:77px;margin:0;outline:none;}
+#musicaViva_btn a{width:215px;}
+#quienesSomos_btn a{width:108px;}
+#porQue_btn a{width:141px;}
+#clases_btn a{width:104px;}
+#galeria_btn a{width:109px;}
+#noticias_btn a{width:123px;}
+
+#musicaViva_btn a:hover,#quienesSomos_btn a:hover,#porQue_btn a:hover,#clases_btn a:hover,#galeria_btn a:hover,#noticias_btn a:hover,#musicaViva_btn a:active,#quienesSomos_btn a:active,#porQue_btn a:active,#clases_btn a:active,#galeria_btn a:active,#noticias_btn a:active,#musicaViva_btn_stays #musicaViva_btn a,#quienesSomos_btn_stays #quienesSomos_btn a,#porQue_btn_stays #porQue_btn a,#clases_btn_stays #clases_btn a,#galeria_btn_stays #galeria_btn a,#noticias_btn_stays #noticias_btn a{background-image:url(other/menuButtons.png);background-repeat:no-repeat;outline:none;}
+#musicaViva_btn a:hover{background-position:0px 0px;}
+#quienesSomos_btn a:hover{background-position:-215px 0px}
+#porQue_btn a:hover{background-position:-323px 0px;}
+#clases_btn a:hover{background-position:-464px 0px;}
+#galeria_btn a:hover{background-position:-568px 0px;}
+#noticias_btn a:hover{background-position:-677px 0px;}
+#musicaViva_btn a:active{background-position:0px -77px;}
+#quienesSomos_btn a:active{background-position:-215px -77px;}
+#porQue_btn a:active{background-position:-323px -77px;}
+#clases_btn a:active{background-position:-464px -77px;}
+#galeria_btn a:active{background-position:-568px -77px;}
+#noticias_btn a:active{background-position:-677px -77px;}
+#musicaViva_btn_stays #musicaViva_btn a{background-position:0px 0px;}
+#quienesSomos_btn_stays #quienesSomos_btn a{background-position:-215px 0px}
+#porQue_btn_stays #porQue_btn a{background-position:-323px 0px;}
+#clases_btn_stays #clases_btn a{background-position:-464px 0px;}
+#galeria_btn_stays #galeria_btn a{background-position:-568px 0px;}
+#noticias_btn_stays #noticias_btn a{background-position:-677px 0px;}
+#musicaViva_btn_stays #musicaViva_btn a, #quienesSomos_btn_stays #quienesSomos_btn a, #porQue_btn_stays #porQue_btn a, #clases_btn_stays #clases_btn a, #galeria_btn_stays #galeria_btn a, #noticias_btn_stays #noticias_btn a{cursor:default;}
+
+/*PAGE, SHADOWS, PICS UNDERNEATH PAGES*/
+#allPage{width:100%;min-width:800px;padding:0;margin:80px 0 0 0;z-index:-1;position:absolute;top:-30px;}
+#pageAndShadows{width:820px;margin:0 auto;background-image:url(other/pageLnRshadows.png);background-repeat:repeat-y;}
+#page{width:760px;padding:40px 0 40px 40px;margin:0 auto;background-color:#fbfbfb;min-height:400px;overflow:hidden;position:relative;}
+.page308{background-image:url(porque/testimoniosBGpatternLight.png);background-repeat:repeat-y;background-position:right;}
+#pageShadowBottom{background-image:url(other/pageShadowBottom.png);height:20px;width:820px;margin:0 auto;padding:0;}
+
+#picsUNDERmusicaViva{background:url("index/UNDERmusicaViva.png") center top no-repeat transparent;}
+#picsUNDERquienesSomos{background:url("quienes/UNDERquienes.png") center top no-repeat transparent;}
+#picsUNDERporQue{background:url("porque/UNDERporQue.png") center top no-repeat transparent;}
+#picsUNDERclases{background:url("clases/UNDERclases.png") center top no-repeat transparent;}
+#picsUNDERgaleria{background:url("galeria/UNDERgaleria.png") center top no-repeat transparent;}
+#picsUNDERnoticias{background:url("noticias/UNDERnoticias.png") center top no-repeat transparent;}
+
+#bigPic{height:550px;width:345px;padding:0;margin:0 50%;z-index:1;position:absolute;}
+#bigPic img{top:10px;left:80px;position:absolute;}
+
+.dividingLine402{background-image:url(other/dividingLine402.jpg);width:442px;height:10px;padding:0;margin:30px 0 20px 0;position:relative;left:-40px;}
+.dividingLine{background-image:url(other/dividingLine.jpg);width:800px;height:10px;padding:0;margin:30px 0 20px 0;position:relative;left:-40px;}
+.dividingLineIndex{background-image:url(other/dividingLine.jpg);width:800px;height:10px;padding:0;margin:0 0 30px 0;position:relative;left:-40px;}
+
+/*TEXT STYLES*/
+p, li, a{font-family:Verdana;text-align:left;color:#737272;font-size:11px;line-height:22px;padding:0;margin:0;}
+p span{font-weight:bold;color:#555;}
+p.header1{font-family:Carefree, Verdana, Verdana, Geneva, sans-serif;font-size:45px !important;letter-spacing:-1px;margin:25px 0 0 0;padding:0;text-shadow:1px 1px 1px #c9c9c9 !important;-webkit-text-size-adjust:80%;}
+p.header_testimonios, p.header_quienes{font-family:Carefree, Verdana, Verdana, Geneva, sans-serif;font-size:45px !important;letter-spacing:-1px;margin:5px 0 12px 0;padding:0;color:#5C5C5C;left:-5px;position:relative;text-shadow:1px 1px 1px #c9c9c9 !important;-webkit-text-size-adjust:80%;}
+p.header_quienes{margin:5px 0 20px 0 !important;}
+p.header2{font-size:15px !important;letter-spacing:;margin:15px 0 0 0;padding:0;color:#444444;}
+p.header2_alone{font-size:15px !important;letter-spacing:;margin:7px 0 0 0;padding:0;color:#444444;}
+p.header3, p.header3_index{font-size:13px !important;letter-spacing:;margin:15px 0 0 0;padding:0;color:#444444;}
+p.header3_index{padding:0 0 15px 0;margin:5px 0 0 0;}
+/*p.header3_index:first-letter{color:#3D3D3D;font-size:50px;float:left;padding:0;margin:9px 6px 0 0;font-family:Times Roman;}*/
+p.header4{font-size:11px !important;letter-spacing:-1px;margin:0;padding:0;color:#555555;}
+#cCortesiaBlue, #cCortesiaRed, #cCortesiaGreen, #cCortesiaPurple, #cCortesiaBrown, #cCortesiaChocolate, #cCortesiaAqua, .classDescriptionBox #cCortesiaAqua a{font-size:17px !important;letter-spacing:-1px;margin:-5px 0 5px 0;padding:0;}
+.classDescriptionBox #cCortesiaAqua a{text-decoration:underline;}
+.classDescriptionBox #cCortesiaAqua a:hover{color:#111;}
+#cCortesiaBlue span, #cCortesiaRed span, #cCortesiaGreen span, #cCortesiaPurple span, #cCortesiaChocolate span, #cCortesiaBrown span, #cCortesiaAqua span{color:gray;font-style:italic;}
+p.noticiasDateText{text-align:left;color:#3b3b3b;font-size:15px;line-height:22px;padding:0;margin:0;}
+p.noticiasTextText{text-align:left;color:#555555;font-size:11px;line-height:22px;padding:0;margin:0;}
+#picsUNDERmusicaViva .header1{color:gray;}
+#picsUNDERquienesSomos .header1{color:#1f6d46;}
+#picsUNDERclases .header1{color:#A61E1E;}
+#picsUNDERporQue .header1{color:#404394;}
+#picsUNDERgaleria .header1{color:#660099;padding-top:25px\9;}
+#picsUNDERnoticias .header1{color:#DE6843;}
+#page li{color:#999999;font-size:11px;margin:0 0 0 -20px}
+#page ul{margin:0;}
+hr{color:#cacaca;background-color:#cacaca;height:1px;border:none;width:100%;}
+a{text-decoration:none;color:#5B81B2;}
+a:hover{color:#03C;text-decoration:underline;}
+.indexTitle{font-family:Carefree, Verdana, Verdana, Geneva, sans-serif;font-size:40px;margin:0 0 7px 0;text-shadow:1px 1px 1px #c9c9c9 !important;-webkit-text-size-adjust:80%}
+.quienesTitle{color:#02713a;}
+.porqueTitle{color:#015d9b;}
+.clasesTitle{color:#ad0000;}
+
+/*INDEX*/
+#indexPic{width:800px;height:418px;margin:-20px 0 0 -40px;padding:0;background-image:url(index/indexPic.jpg);background-repeat:no-repeat;}
+#indexUpperText{height:300px;width:360px;padding:0;margin:0;position:absolute;top:165px;right:40px;}
+.threeIndexBoxes{width:210px;margin:-5px 15px 0 15px;padding:0;float:left;*padding:15px 0 0 0;}
+a.indexButtonShape{width:50px;height:20px;padding:10px;margin:-5px 0 0 0;-moz-border-radius:10px;border-radius:10px;border:1px solid;background-image:url(index/gtest.png);background-repeat:repeat-x;display:block;text-align:center;font-size:13px;letter-spacing:1m;text-transform:uppercase;}
+#indexButtonQuienes, #indexButtonPorQue, #indexButtonClases{border-color:#a8a8a8;color:#545454;background-position:0 -155px;}
+#indexButtonQuienes:hover{background-color:#268428;border-color:#02880f;color:#fff;text-decoration:none;background-position:0 -5px;box-shadow:0px 1px 2px #000;}
+#indexButtonPorQue:hover{background-color:#2D45BD;border-color:#1345ab;color:#fff;text-decoration:none;background-position:0 -55px;box-shadow:0px 1px 2px #000;}
+#indexButtonClases:hover{background-color:#d91f1f;border-color:#b70016;color:#fff;text-decoration:none;background-position:0 -105px;box-shadow:0px 1px 2px #000;}
+p.indexTitles{color:#444444;font-size:14px;font-weight:bold;margin:0;padding:0;}
+
+/*QUIENES*/
+#discCovers{margin:5px 40px 0 40px;padding:0;width:308px;}
+.discContent{width:100x;height:120px;margin:5px 5px 0 0;padding:0;float:left;}
+.disc{width:100px;height:100px;margin:0 14px 0 0;padding:0;border:1px solid gray;border-radius:3px;-moz-border-radius:3px;float:left;}
+/*.disc img{border-radius:5px;-moz-border-radius:5px;}*/
+/*.discInfo{width:100px;height:120px;margin:0;padding:12px 0 0 0;}
+p.discText{font-size:11px;color:#444444;padding:0 0 5px 0;margin:0 0 0 10px;font-style:italic;}*/
+span.discDate{font-style:italic;font-size:12px;}
+#disc1, #disc2, #disc3, #disc4, #disc5, #disc6, #disc7, #disc8, #disc, #disc9, #disc10, #disc11, #disc12{background-image:url(quienes/discConvers_sprite.jpg);background-repeat:no-repeat;position:relative;}
+#disc1{background-position:0px 0px;}
+#disc2{background-position:-100px 0px;}
+#disc3{background-position:-200px 0px;}
+#disc4{background-position:-300px 0px;}
+#disc5{background-position:-400px 0px;}
+#disc6{background-position:-500px 0px;}
+#disc7{background-position:-600px 0px;}
+#disc8{background-position:-700px 0px;}
+#disc9{background-position:-800px 0px;}
+#disc10{background-position:-900px 0px;}
+#disc11{background-position:-1000px 0px;}
+#disc12{background-position:-1100px 0px;}
+
+#partners{width:412px;height:170px;margin:20px 0 0 0;}
+#partnersImage{width:412px;height:170px;padding:0;display:inline;background-position:0 170px;display:block;position:absolute;}
+#partnersImage li{list-style-type:none;}
+#partnersImage a{height:85px;width:103px;padding:0;margin:0;display:block;float:left;position:relative;left:20px;}
+#partnersImage, #partner_image_1:hover, #partner_image_2:hover, #partner_image_3:hover, #partner_image_4:hover, #partner_image_5:hover, #partner_image_6:hover, #partner_image_7:hover{background-image:url(quienes/partners.png);position:relative;}
+#partner_image_1:hover{background-position:0px 0px;}
+#partner_image_2:hover{background-position:-103px 0;}
+#partner_image_3:hover{background-position:-206px 0;}
+#partner_image_4:hover{background-position:-309px 0;}
+#partner_image_5:hover{background-position:0 -85px;}
+#partner_image_6:hover{background-position:-103px -85px;}
+#partner_image_7:hover{background-position:-206px -85px;}
+#partner_image_8{cursor:default;}
+
+/*TESTIMONIOS*/
+.leftSide412{width:412px;padding:0;margin:0 40px 0 0;float:left;}
+.rightSide308{width:308px;padding:30px 0 0 0;margin:-15px 0 0 0;float:left;background-image:url(porque/testimoniosBGpattern.png);}
+#testimoniosBottomGradient{margin:0;padding:0;height:60px;width:308px;background-image:url(porque/testimoniosBottomGradient.png);bottom:0px;position:relative;}
+.testimoniosQuoteBox{margin:0 41px 20px 41px;padding:0;width:226px;}
+.testimoniosBoxTop,.testimoniosBoxMiddle,.testimoniosBoxBottom{background-image:url(porque/testimoniosQuoteBox.png);margin:0;padding:0;}
+.testimoniosBoxTop{background-position:0px 0px; width:226px;height:25px;background-repeat:no-repeat;}
+.testimoniosBoxMiddle{background-position:-226px 0px;width:226px;background-repeat:repeat-y;}
+.testimoniosBoxBottom{background-position:-452px 0px; width:226px;height:25px;background-repeat:no-repeat;}
+.testimoniosBoxMiddleContainer{margin:0;padding:0 25px;}
+p.testimoniosBoxText{font-size:10px;line-height:18px;}
+p.testimoniosBlueHeaders{letter-spacing:;font-size:15px;color:#092070;padding:0 0 5px 0;}
+.testimoniosBottomSection{margin:0 0 20px 0;padding:0;height:21px;width:308px;background-image:url(porque/testimoniosBottomSection.png);background-repeat:no-repeat;}
+.testimoniosBottomSectionATW{margin:0;padding:0;height:21px;width:308px;background-image:url(porque/testimoniosBottomSection.png);background-repeat:no-repeat;background-position:0 -23px;float:left;}
+
+/*HORARIO*//*
+.block720{width:720px;margin:0;padding:0;}
+#daTable{margin:20px 0 0 0;padding:0;width:720px;height:477px;z-index:999;border-radius:5px;-moz-border-radius:5px;border:1px solid #7f7f7f;}
+.lighterRow a{background-color:#e7e7e7;}
+.darkerRow a{background-color:#CCCCCC;}
+.cell154 a, .cell154_days a{width:127px;border-bottom:solid 1px #FFFFFF;border-right:solid 1px #FFFFFF;}
+.cell104 a, .cell104_hora a{width:79px;border-right:solid 1px #FFFFFF;border-bottom:solid 1px #FFFFFF;}
+.cell154 a.t_blackTxt, .cell104 a.t_blackTxt, .cell104_hora a.t_blackTxt, .cell154_days a.t_blackTxt{cursor:default;font-size:14px !important;color:#333333;}
+.cell154_days a, .cell154 a, .cell104 a, .cell104_hora a{margin:0;text-align:center;float:left;text-decoration:none;font-family:Arial;font-size:11px;line-height:17px;}
+.cell154 a{height:50px;padding:20px 0 0 0;outline:none;}
+.cell104 a, .cell154_days a{height:25px;padding:20px 0 5px 0;outline:none;}
+.cell104_hora a{height:40px;padding:30px 0 0 0;outline:none;}
+#cCortesiaBrown, .cell154 a.t_brownTxt, .sabado-mamabebe{color:sienna;}
+#cCortesiaChocolate, .cell154 a.t_chocolateTxt{color:chocolate;}
+#cCortesiaBlue, .cell154 a.t_blueTxt{color:#162470;}
+#cCortesiaRed, .cell154 a.t_redTxt, .sabado-desarrollo{color:#942525;}
+#cCortesiaGreen, .cell154 a.t_greenTxt{color:#155413;}
+#cCortesiaPurple, .cell154 a.t_purpleTxt{color:#8E58A3;}
+#cCortesiaAqua, .cell154 a.t_aquaTxt, .classDescriptionBox #cCortesiaAqua a{color:#585E3C;}
+#cCortesiaBlue, #cCortesiaGreen, #cCortesiaRed, #cCortesiaPurple, #cCortesiaChocolate, #cCortesiaBrown, #cCortesiaAqua{padding-top:10px;}
+.cell154 a.t_greenTxt, .cell154 a.t_brownTxt, .cell154 a.t_aquaTxt{height:40px;padding:30px 0 0 0;}
+.cell154 a.t_brownTxt:hover{background-color:sienna;color:#FFFFFF;}
+.cell154 a.t_chocolateTxt:hover{background-color:chocolate;color:#FFFFFF;}
+.cell154 a.t_blueTxt:hover{background-color:#2362BA;color:#FFFFFF;} 	
+.cell154 a.t_redTxt:hover{background-color:#A62D2D;color:#FFFFFF;}
+.cell154 a.t_greenTxt:hover{background-color:#2C8529;color:#FFFFFF;}
+.cell154 a.t_purpleTxt:hover{background-color:#8E58A3;color:#FFFFFF;}
+.cell154 a.t_aquaTxt:hover{background-color:#585E3C;color:#FFFFFF;}
+.instrumento{color:#8E58A3;margin:10px 0 0 5px;}
+
+.kinder{background-image:url(clases/kindermusik.jpg);background-repeat:no-repeat;}
+#kinder-1{background-position:0 0;}
+#kinder-1:hover{background-position:-128px 0;}
+#kinder-2{background-position:0 -71px;}
+#kinder-2:hover{background-position:-128px -71px;}*/
+
+#schedule{width:720px;height:inherit;overflow:hidden;margin:20px 0 0 0 !important;padding:0;border-radius:10px;box-shadow:0 0 0 1px #999;}
+#schedule li{list-style:none;width:inherit;float:left;margin:0 !important;padding:0 !important;}
+#schedule *{text-align:center;font-size:12px;}
+#schedule li:nth-child(odd) div{background-color:#d9d6d6;}
+#schedule div{width:129px;height:50px;float:left;background-color:#e7e7e7;box-shadow:inset 0 0 0 1px #FFF;padding:30px 0 0 0;color:#777;}
+#schedule a{display:block;width:129px;height:80px;margin:-30px 0 0 0;padding:30px 0 0 0;text-decoration:none;}
+#schedule a:hover{color:#FFF;}
+#schedule li:last-of-type div{width:720px;padding:20px 0 16px 0;font-size:10px;}
+.lay2{padding:25px 0 0 0 !important;height:85px !important;line-height:16px;}
+.top-row{height:35px !important;padding:15px 0 0 0 !important;}
+.left-column{width:75px !important;}
+.c1{color:#585E3C;}
+.c1:hover{background-color:#585E3C;}
+.c2{color:#0c2eab;}
+.c2:hover{background-color:#0c2eab;}
+.c3{color:#A62D2D;}
+.c3:hover{background-color:#A62D2D;}
+.c4{color:#2C8529;}
+.c4:hover{background-color:#2C8529;}
+.c5{color:#8E58A3;}
+.c5:hover{background-color:#8E58A3;}
+.c6{color:sienna;}
+.c6:hover{background-color:sienna;}
+.c7{color:chocolate;}
+.c7:hover{background-color:chocolate;}
+.kinder{background:url(clases/kindermusik.jpg) 0 -68px no-repeat;background-color:#FFF;}
+.kinder:hover{background-position:-128px -68px;}
+
+
+
+/*SABADO STYLES*/
+.cell154.cell720 a{width:719px;cursor:default;}
+a.t_sabadoTxt{height:58px;padding:12px 0 0 0;color:#094152;}
+.nopointer{font-size:14px;color:#333333;line-height:30px;}
+
+.newsBox{display:none;}
+/*#newboxes1, #newboxes2, #newboxes3, #newboxes4, #newboxes5{display:none;}*/
+.classDescriptionBox{margin:0 0 0 27px;padding:0 30px 20px 30px;width:600px;background-color:#F2F2F2;border:1px solid #a1a1a1;border-top:none;border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;top:0;position:relative;}
+.descriptionBoxShadow{background-image:url(clases/desciptionBoxShadow.png);width:660px;height:15px;padding:0;margin:0;position:relative;top:0;right:30px;}
+.pdfLink{width:600px;height:50px;margin:10px 0 0 0;padding:0;}
+.pdfIcon{width:50px;height:50px;float:left;margin:0 15px 0 0;padding:0;}
+.pdfIcon img{border:none;}
+.textOf_pdfLink{width:500px;height:35px;float:left;padding:15px 0 0 0;}
+/*.allBoxHides{width:620px;height:auto;margin:0 0 -15px 30px;padding:0;}*/
+/*.closeButton a{width:20px;height:20px;position:absolute;}
+.closeButton a:hover{background:url("clases/buttons_sprite.png") 0px -100px;background-repeat:no-repeat;}*/
+/*background-image:url(noticias/noticiasGradient.png);background-position:bottom;background-repeat:repeat-x;}*/
+
+#form_ClasesDeCortesia{width:720px;margin:0;padding:0;}
+#form_ClasesLeft{margin:20px 20px 0 0;width:275px;padding:0;float:left;}
+#form_ClasesRight{margin:20px 0 0 20px;width:360px;padding:0;float:left;}
+.form_Title{color:#0066FF;font-size:14px;font-weight:bold;margin:0;padding:0;}
+.form_Title span.form_Required{color:#0a0a0a;font-weight:normal;font-style:italic;font-size:11px;top:-1px;position:relative;}
+#form_ClasesLeft .input_Box, #form_ClasesRight .textArea{margin:5px 0;padding:10px;background-color:#578dc2;color:#052240;font-size:14px;border:1px solid #1e476f;border-radius:5px;-moz-border-radius:5px;outline:none;font-weight:bold;}
+#form_ClasesRight .textArea{width:378px;height:238px;resize:none;}
+#form_ClasesLeft .input_Box{width:255px;height:18px;}
+#form_ClasesRight .input_Box{width:340px;height:80px;}
+#form_ClasesLeft .input_Box:focus, #form_ClasesRight .textArea:focus{border:1px solid #000000;color:#FFFFFF;outline:none;background-color:#244c74;}
+#submitButtonStyle.value{color:red;}
+#submitButtonStyle{width:100px;height:40px;margin:0;padding:0;right:-300px;top:10px;position:relative;background-image:url(index/gtest.png);right:-300px;top:10px;display:block;outline:none;border:0px;cursor:pointer;-moz-border-radius:5px;border-radius:5px;background-position:0 -55px;color:#FFF;font-size:15px;line-height:0px;text-shadow:0px 1px 1px #000;box-shadow:0px 1px 3px #000;letter-spacing:1px;}
+#submitButtonStyle:hover{background-position:0 -5px;}
+
+/*THANKS PAGE*/
+#thanksMom{width:500px;height:600px;margin:60px auto 0 auto;padding:0;position:relative\9;left:50%\9;margin-left:-250px\9;}
+#thanksMom img{left:67px;position:relative;}
+#thanksMom p{font-size:50px !important;text-align:center;line-height:60px;}
+
+/*GALERIA*/
+#gallery{width:736px;margin-left:-8px;margin-top:10px;}
+.imageSlots{float:left;margin:0px;}
+.imageSlots img{width:127px;height:127px;padding:0;margin:9px;border:1px solid #a6a6a6;}
+.imageSlots img:hover{border:1px solid #050505;}
+
+/*NOTICIAS*/
+.noticiasText{width:396px;margin:25px 0 0 0;padding:15px 25px 15px 42px;background-color:#F2F2F2;/*background-image:url(noticias/noticiasGradient.png);background-position:bottom;background-repeat:no-repeat;*/border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;border:1px solid #bebebe;position:relative;left:-41px;}
+
+/*FOOTER*/
+.daFooter{width:820px;margin:10px auto 0 auto;}
+.daFooter p, .daFooter a{color:#FFFFFF;position:relative;left:25px;font-size:12px;text-align:left;}
+.daFooter a{margin-right:10px;}
+.daFooter a:hover{color:#FFFFFF;}
+.footerInfo{width:650px;float:left;margin:0 10px 20px 5px;}
+#picsUNDERmusicaViva .daFooter a, #picsUNDERmusicaViva .daFooter p{color:#444444;}
+#picsUNDERmusicaViva .daFooter a:hover{color:#444444;}
+#fb a, #tw a{width:50px;height:50px;position:relative;top:-4px;left:0;float:left;margin:0 0 0 13px;background-image:url(index/fbNtw.png);background-repeat:no-repeat;}
+#tw a{background-position:0 -50px;}
